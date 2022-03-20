@@ -1,0 +1,16 @@
+{
+    "nodes": [  "wss://x1.sologenic.org", "wss://s2.ripple.com/", "wss://s1.ripple.com/", "wss://xrpl.ws/", "wss://xrplcluster.com/" ],
+    "retrymax": 5,
+    "tokens": [
+        {
+            "name": "OCW",
+            "hex": "OCW",
+            "issuer": "rK9DrarGKnVEo2nYp5MfVRXRYf5yRX3mwD"
+        },
+        {
+            "name": "XBLADE",
+            "hex": "58424C4144450000000000000000000000000000",
+            "issuer": "rfVTbKsRgyurPddRiWaReuiK9Tvms8XGj1"
+        }
+    ]
+}
