@@ -44,6 +44,8 @@ process.on('uncaughtException', async (err) => {
 });
 
 async function main() {
+    
+    console.log(`\n\n\n—————\nThis Tool Was Developed, For Public Use, by OnChain Whales\nPlease visit our website @ onchainwhales.net to see just what we can bring to the NFTs on the XRPL\nTwitter: @onchainwhales\nEmail: josh@onchainwhales.net\n—————\n`)
 
     //connect to XRPL
     client = await xconnect(client, nodes)
@@ -165,6 +167,7 @@ async function main() {
     await savejson(`./CrossOverHolders.json`, crossoverHolders)
     await savejson(`./CrossOverAllTL.json`, crossoverAll)
 
+    console.log(`\n\n\n—————\nWebsite @ onchainwhales.net\nTwitter: @onchainwhales\nEmail: josh@onchainwhales.net—————\n`)
     process.exit(1)
 }
 
